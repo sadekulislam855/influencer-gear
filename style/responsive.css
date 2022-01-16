@@ -1,0 +1,204 @@
+@media (max-width: 767px) {
+  main,
+  header,
+  footer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    margin-top: 100px;
+  }
+  .header-area {
+    margin: 30px auto;
+  }
+  .header-area .flex-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+  }
+  .header-area .humbuger {
+    display: flex;
+    font-size: 40px;
+  }
+  .header-area .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header-area .logo a {
+    font-size: 30px;
+  }
+  .top-menu .menu {
+    display: none;
+  }
+  .top-menu .menu-icon {
+    font-size: 40px;
+  }
+  .top-menu .menu-icon .search-icon {
+    display: none;
+  }
+  .top-section .flex-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .top-section .flex-row .left {
+    order: 2;
+    width: 100%;
+  }
+  .top-section .flex-row .right {
+    order: 1;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .top-section .right::before {
+    transform: translate(-50%, -50%);
+    left: 54%;
+    top: 50%;
+  }
+  .top-section .left {
+    text-align: center;
+  }
+
+  .brand-section .brand-icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    border: none;
+  }
+  .brand-section .brand-icon img {
+    margin: 9px 16px;
+  }
+  .product-section .all-product {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .product-section .single-product {
+    width: 471px;
+  }
+
+  .single-product .product-thubmnails {
+    width: 437px;
+    height: 343px;
+  }
+  .single-product .product-thubmnails img {
+    width: 100%;
+    height: 100%;
+  }
+  a.product-see-more {
+    padding: 40px 0;
+  }
+  .footer-section {
+    height: 300px;
+  }
+
+  .email {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  main,
+  header,
+  footer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    margin-top: 100px;
+  }
+  .header-area {
+    margin: 30px auto;
+  }
+  .header-area .flex-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+  }
+  .header-area .humbuger {
+    display: flex;
+    font-size: 40px;
+  }
+  .header-area .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header-area .logo a {
+    font-size: 30px;
+  }
+  .top-menu .menu {
+    display: none;
+  }
+  .top-menu .menu-icon {
+    font-size: 40px;
+  }
+  .top-menu .menu-icon .search-icon {
+    display: none;
+  }
+
+  .hero-section .flex-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .hero-section .flex-row .left {
+    order: 2;
+    width: 100%;
+  }
+  .hero-section .flex-row .right {
+    order: 1;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .hero-section .right::before {
+    transform: translate(-50%, -50%);
+    left: 66%;
+    top: 50%;
+  }
+  .hero-section .left {
+    text-align: center;
+  }
+
+  .brand-section-start .brand-icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    border: none;
+  }
+  .brand-section-start .brand-icon img {
+    margin: 9px 16px;
+  }
+
+  .product-section-start .all-product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-section-start .single-product {
+    width: 320px;
+  }
+
+  .single-product .product-thubmnails {
+    width: 290px;
+  }
+  .single-product .product-thubmnails img {
+    width: 100%;
+    height: 100%;
+  }
+  a.product-see-more {
+    padding: 40px 0;
+  }
+
+  .footer-section {
+    height: 300px;
+  }
+  .email {
+    width: auto;
+  }
+}
